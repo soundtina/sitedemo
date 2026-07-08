@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>好外贸建站平台 - 官方展示模板中心</title>
+  <meta name="description" content="好外贸建站平台 - 专为中国跨境卖家打造的高端、极速、多语言外贸 B2B 站点模板展示中心">
+  <!-- Google Fonts - Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Page wrapper -->
+  <div class="app-container">
+    
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-area">
+        <div class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4f46e5"/>
+                <stop offset="1" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">好外贸</span>
+        <span class="badge">建站平台</span>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">
+          好外贸 <span class="gradient-text">建站模版中心</span>
+        </h1>
+        <p class="hero-subtitle">
+          发现专为中国出口工厂和跨境卖家打造的极速、多语言 B2B 展示站模板。瞬间吸引海外采购商，高效捕获询盘。
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Controls (Items per page select / Search simulated) -->
+      <div class="filter-bar">
+        <div class="result-count" id="result-count">正在加载模版列表...</div>
+        <div class="page-size-selector">
+          <label for="items-per-page">每页显示:</label>
+          <div class="select-wrapper">
+            <select id="items-per-page">
+              <option value="3">3 个模板</option>
+              <option value="6" selected>6 个模板</option>
+              <option value="9">9 个模板</option>
+              <option value="12">12 个模板</option>
+              <option value="15">15 个模板</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid Container -->
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Skeleton loaders will be dynamically placed here and replaced by actual content -->
+      </div>
+
+      <!-- Pagination Section -->
+      <div class="pagination-wrapper">
+        <div class="pagination" id="pagination-container">
+          <!-- JS will render pagination controls here -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">&copy; 2026 好外贸建站平台. 所有展示模板均支持极速静态导出与边缘托管.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
